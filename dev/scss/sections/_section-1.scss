@@ -1,9 +1,51 @@
 /* =============
     Section 1
 ============= */
-#section-1{
-    .grid-content{
-        
-    }
+#section-1 {
+    background-image: url('../img/section-1/Ring.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 445px;
 
+        @include md{
+            height: 960px;
+            padding-top: 120px;
+        }
+
+        @include lg {
+            height: 658px;
+            background-position: center;
+        }
+
+        @include xl {
+            height: 658px;
+            background-position: center;
+        }
+
+
+    h1 {
+        color: $navy;
+        font-family: 'Lora', serif;
+        font-size: 25px;
+        padding-top: 400px;
+        padding-right: 300px;
+        text-align: left;
+        
+        @include md {
+            padding-top: 630px;
+            font-size: 40px;
+        }
+
+        @include lg {
+            padding-top: 500px;
+            font-size: 40px;
+        }
+
+        @include xl {
+            font-size: 70px;
+        }
+    }
 }
+
+
