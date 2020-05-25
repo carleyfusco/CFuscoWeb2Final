@@ -13,11 +13,11 @@ header {
         display: grid;
         grid-template-areas: "logo burger"
                             "nav nav";
-        grid-template-columns: 80% auto;
+        grid-template-columns: 90% auto;
  
         section,
         nav {
-            padding: 0px;
+            padding: 10px;
         }
 
         #logo-container {

@@ -418,10 +418,10 @@ header {
   header > div {
     display: grid;
     grid-template-areas: "logo burger" "nav nav";
-    grid-template-columns: 80% auto; }
+    grid-template-columns: 90% auto; }
     header > div section,
     header > div nav {
-      padding: 0px; }
+      padding: 10px; }
     header > div #logo-container {
       grid-area: logo; }
       header > div #logo-container h1 {
