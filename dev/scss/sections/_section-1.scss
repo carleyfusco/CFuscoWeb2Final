@@ -27,9 +27,9 @@
     h1 {
         color: $navy;
         font-family: 'Lora', serif;
-        font-size: 25px;
-        padding-top: 400px;
-        padding-right: 300px;
+        font-size: 30px;
+        padding-top: 350px;
+        padding-right: 200px;
         text-align: left;
         
         @include md {
@@ -39,7 +39,7 @@
 
         @include lg {
             padding-top: 500px;
-            font-size: 40px;
+            font-size: 60px;
         }
 
         @include xl {

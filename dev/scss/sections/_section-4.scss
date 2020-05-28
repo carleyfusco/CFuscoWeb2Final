@@ -2,8 +2,27 @@
     Section 4
 ============= */
 #section-4{
-    .grid-content{
-        
+
+    aside{
+        background-image: url("../img/section-4/Flower.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 230px;
+    
+        @include md{
+            height: 530px;
+        }
+    
+        @include lg{
+            height: 530px;
+        }
     }
+
+    #section-4-content{
+
+    }
+
+    // .grid-content{
+    // }
 
 }

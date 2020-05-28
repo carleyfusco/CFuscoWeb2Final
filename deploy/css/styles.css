@@ -426,7 +426,7 @@ header {
       grid-area: logo; }
       header > div #logo-container h1 {
         text-align: center;
-        padding-left: 50;
+        padding-left: 8%;
         padding-top: 5px;
         font-size: 60px; }
     header > div #burger-container {
@@ -486,9 +486,9 @@ footer {
   #section-1 h1 {
     color: #13315A;
     font-family: 'Lora', serif;
-    font-size: 25px;
-    padding-top: 400px;
-    padding-right: 300px;
+    font-size: 30px;
+    padding-top: 350px;
+    padding-right: 200px;
     text-align: left; }
     @media (min-width: 768px) {
       #section-1 h1 {
@@ -497,16 +497,101 @@ footer {
     @media (min-width: 992px) {
       #section-1 h1 {
         padding-top: 500px;
-        font-size: 40px; } }
+        font-size: 60px; } }
     @media (min-width: 1200px) {
       #section-1 h1 {
         font-size: 70px; } }
 /* =============
     Section 2
 ============= */
+#section-2 #section-2-container aside {
+  background-image: url("../img/section-2/Shoe.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px; }
+
+#section-2 #section-2-container #section-2-right h1 {
+  color: #13315A; }
+
+#section-2 #section-2-container #section-2-right p {
+  color: #733235; }
+
 /* =============
     Section 3
 ============= */
 /* =============
     Section 4
 ============= */
+#section-4 aside {
+  background-image: url("../img/section-4/Flower.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 230px; }
+  @media (min-width: 768px) {
+    #section-4 aside {
+      height: 530px; } }
+  @media (min-width: 992px) {
+    #section-4 aside {
+      height: 530px; } }
+/* =============
+    Section 6
+============= */
+#section-6 ul {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: repeat(4, 320px);
+  grid-template-areas: "g1" "g2" "g3" "g4"; }
+  @media (min-width: 768px) {
+    #section-6 ul {
+      grid-gap: 15px;
+      grid-template-rows: repeat(3, 248px);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "g1 g2 g3" "g4 g4 g4" "g4 g4 g4"; } }
+  @media (min-width: 992px) {
+    #section-6 ul {
+      grid-template-rows: repeat(3, 330px);
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "g1 g2 g3" "g4 g4 g4" "g4 g4 g4"; } }
+  #section-6 ul li {
+    background-position: center;
+    background-size: cover; }
+  #section-6 ul #g1 {
+    background-image: url("../img/section-6/vase.jpg");
+    height: 320px;
+    grid-area: g1; }
+    @media (min-width: 768px) {
+      #section-6 ul #g1 {
+        height: 248px; } }
+    @media (min-width: 992px) {
+      #section-6 ul #g1 {
+        height: 330px; } }
+  #section-6 ul #g2 {
+    background-image: url("../img/section-6/greens.jpg");
+    height: 320px;
+    grid-area: g2; }
+    @media (min-width: 768px) {
+      #section-6 ul #g2 {
+        height: 248px; } }
+    @media (min-width: 992px) {
+      #section-6 ul #g2 {
+        height: 330px; } }
+  #section-6 ul #g3 {
+    background-image: url("../img/section-6/dress.jpg");
+    height: 320px;
+    grid-area: g3; }
+    @media (min-width: 768px) {
+      #section-6 ul #g3 {
+        height: 248px; } }
+    @media (min-width: 992px) {
+      #section-6 ul #g3 {
+        height: 330px; } }
+  #section-6 ul #g4 {
+    background-image: url("../img/section-6/drinks.jpg");
+    height: 320px;
+    grid-area: g4; }
+    @media (min-width: 768px) {
+      #section-6 ul #g4 {
+        height: 496px; } }
+    @media (min-width: 992px) {
+      #section-6 ul #g4 {
+        height: 660px; } }
