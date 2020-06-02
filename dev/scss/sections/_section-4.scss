@@ -18,11 +18,41 @@
         }
     }
 
+
+    
     #section-4-content{
+        padding-left: 30px;
+        padding-right: 30px;
 
-    }
+        @include md{
+            padding-left: 50px;
+             padding-right: 50px;
+        }
 
-    // .grid-content{
-    // }
+        @include lg{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
 
+
+        h1{
+            color: $navy;
+            padding-top: 70px;
+            padding-bottom: 15px;
+            font-size: 36px;
+    
+            @include md{
+                font-size: 50px;
+            }
+        }
+    
+        p{
+            color: $red;
+            font-size: 18px;
+    
+            @include lg{
+                font-size: 22px;
+            }
+        }
+    }    
 }

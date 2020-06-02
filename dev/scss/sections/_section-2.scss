@@ -2,23 +2,63 @@
     Section 2
 ============= */
 #section-2{
+    
     #section-2-container{
+
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "section-2-right section-2-image";
+        }
+
         aside{
             background-image: url('../img/section-2/Shoe.jpg');
             background-position: center;
             background-size: cover;
-            height: 600px;
+            height: 500px;
+            width: auto;
+
+            @include md{
+                height: 530px;
+                width: auto;
+                grid-area: section-2-image;
+            }
         }
 
         #section-2-right{
+            @include md{
+                grid-area: section-2-right;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 200px;
+                padding-bottom: 200px;
+            }
+
             h1{
                 color: $navy;
+                font-size: 36px;
+                padding-bottom: 15px;
+
+                @include md{
+                    font-size: 50px;
+                }
             }
-            
+
             p{
                 color: $red;
+                font-size: 16px;
+
+                @include md{
+                    font-size: 18px;
+                }
+
+                @include lg{
+                    font-size: 22px;
+                }
             }
         }
 
     }
 }
+
+

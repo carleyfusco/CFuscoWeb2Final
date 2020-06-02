@@ -2,8 +2,40 @@
     Section 3
 ============= */
 #section-3{
-    .grid-content{
-        
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @include md{
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
+    @include lg{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    h1{
+        color: $navy;
+        font-size: 36px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+
+        @include md{
+            font-size: 50px;
+        }
+    }
+
+    p{
+        color: $red;
+        font-size: 18px;
+        padding-bottom: 15px;
+
+        @include md{
+            font-size: 22px;
+        }
+    }
 }
+

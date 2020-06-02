@@ -504,21 +504,78 @@ footer {
 /* =============
     Section 2
 ============= */
+@media (min-width: 768px) {
+  #section-2 #section-2-container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "section-2-right section-2-image"; } }
+
 #section-2 #section-2-container aside {
   background-image: url("../img/section-2/Shoe.jpg");
   background-position: center;
   background-size: cover;
-  height: 600px; }
+  height: 500px;
+  width: auto; }
+  @media (min-width: 768px) {
+    #section-2 #section-2-container aside {
+      height: 530px;
+      width: auto;
+      grid-area: section-2-image; } }
+@media (min-width: 768px) {
+  #section-2 #section-2-container #section-2-right {
+    grid-area: section-2-right;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 200px;
+    padding-bottom: 200px; } }
 
 #section-2 #section-2-container #section-2-right h1 {
-  color: #13315A; }
-
+  color: #13315A;
+  font-size: 36px;
+  padding-bottom: 15px; }
+  @media (min-width: 768px) {
+    #section-2 #section-2-container #section-2-right h1 {
+      font-size: 50px; } }
 #section-2 #section-2-container #section-2-right p {
-  color: #733235; }
-
+  color: #733235;
+  font-size: 16px; }
+  @media (min-width: 768px) {
+    #section-2 #section-2-container #section-2-right p {
+      font-size: 18px; } }
+  @media (min-width: 992px) {
+    #section-2 #section-2-container #section-2-right p {
+      font-size: 22px; } }
 /* =============
     Section 3
 ============= */
+#section-3 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px; }
+  @media (min-width: 768px) {
+    #section-3 {
+      padding-left: 50px;
+      padding-right: 50px; } }
+  @media (min-width: 992px) {
+    #section-3 {
+      padding-left: 100px;
+      padding-right: 100px; } }
+  #section-3 h1 {
+    color: #13315A;
+    font-size: 36px;
+    padding-bottom: 15px;
+    padding-top: 15px; }
+    @media (min-width: 768px) {
+      #section-3 h1 {
+        font-size: 50px; } }
+  #section-3 p {
+    color: #733235;
+    font-size: 18px;
+    padding-bottom: 15px; }
+    @media (min-width: 768px) {
+      #section-3 p {
+        font-size: 22px; } }
 /* =============
     Section 4
 ============= */
@@ -533,6 +590,60 @@ footer {
   @media (min-width: 992px) {
     #section-4 aside {
       height: 530px; } }
+#section-4 #section-4-content {
+  padding-left: 30px;
+  padding-right: 30px; }
+  @media (min-width: 768px) {
+    #section-4 #section-4-content {
+      padding-left: 50px;
+      padding-right: 50px; } }
+  @media (min-width: 992px) {
+    #section-4 #section-4-content {
+      padding-left: 100px;
+      padding-right: 100px; } }
+  #section-4 #section-4-content h1 {
+    color: #13315A;
+    padding-top: 70px;
+    padding-bottom: 15px;
+    font-size: 36px; }
+    @media (min-width: 768px) {
+      #section-4 #section-4-content h1 {
+        font-size: 50px; } }
+  #section-4 #section-4-content p {
+    color: #733235;
+    font-size: 18px; }
+    @media (min-width: 992px) {
+      #section-4 #section-4-content p {
+        font-size: 22px; } }
+/* =============
+    Section 5
+============= */
+#section-5 {
+  padding-left: 30px;
+  padding-right: 30px; }
+  @media (min-width: 768px) {
+    #section-5 {
+      padding-left: 50px;
+      padding-right: 50px; } }
+  @media (min-width: 992px) {
+    #section-5 {
+      padding-left: 100px;
+      padding-right: 100px; } }
+  #section-5 h1 {
+    padding-top: 70px;
+    padding-bottom: 15px;
+    color: #13315A;
+    font-size: 36px; }
+    @media (min-width: 768px) {
+      #section-5 h1 {
+        font-size: 50px; } }
+  #section-5 p {
+    color: #13315A;
+    font-size: 16px;
+    padding-bottom: 50px; }
+    @media (min-width: 992px) {
+      #section-5 p {
+        font-size: 22px; } }
 /* =============
     Section 6
 ============= */
