@@ -1,59 +1,59 @@
 /* =============
     Section 4
 ============= */
-#section-4{
+#section-4 {
 
-    aside{
+    aside {
         background-image: url("../img/section-4/Flower.jpg");
         background-position: center;
         background-size: cover;
         height: 230px;
-    
-    
-        @include md{
+
+
+        @include md {
             height: 530px;
         }
-    
-        @include lg{
+
+        @include lg {
             height: 530px;
         }
     }
 
 
-    
-    #section-4-content{
+
+    #section-4-content {
         padding-left: 30px;
         padding-right: 30px;
 
-        @include md{
+        @include md {
             padding-left: 50px;
-             padding-right: 50px;
+            padding-right: 50px;
         }
 
-        @include lg{
+        @include lg {
             padding-left: 100px;
             padding-right: 100px;
         }
 
 
-        h1{
+        h1 {
             color: $navy;
             padding-top: 70px;
             padding-bottom: 15px;
             font-size: 36px;
-    
-            @include md{
+
+            @include md {
                 font-size: 50px;
             }
         }
-    
-        p{
+
+        p {
             color: $red;
             font-size: 18px;
-    
-            @include lg{
+
+            @include lg {
                 font-size: 22px;
             }
         }
-    }    
+    }
 }
