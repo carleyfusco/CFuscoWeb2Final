@@ -26,12 +26,18 @@
         }
 
         #section-2-right{
+
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 60px;
+            padding-top: 60px;
+
             @include md{
                 grid-area: section-2-right;
                 padding-left: 30px;
                 padding-right: 30px;
                 padding-top: 200px;
-                padding-bottom: 200px;
+                padding-bottom: 0px;
             }
 
             h1{
@@ -47,6 +53,7 @@
             p{
                 color: $red;
                 font-size: 16px;
+                line-height: 35px;
 
                 @include md{
                     font-size: 18px;

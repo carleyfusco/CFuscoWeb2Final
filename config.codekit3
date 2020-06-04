@@ -131,14 +131,6 @@
 		"oAP": "/dev/footer.html",
 		"oF": 0
 		},
-	"/dev/head.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/head.html",
-		"oF": 0
-		},
 	"/dev/header.html": {
 		"cB": 0,
 		"ft": 8192,

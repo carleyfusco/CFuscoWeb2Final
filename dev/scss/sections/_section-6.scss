@@ -2,6 +2,22 @@
     Section 6
 ============= */
 #section-6{
+    h1{
+        color: $navy;
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+
+        @include md{
+            font-size: 45px;
+            text-align: center;
+        }
+        @include md{
+            font-size: 50px;
+            text-align: center;
+        }
+    }
 
         ul{
             display: grid;
@@ -91,5 +107,5 @@
                     height: 660px;
                 }
             }
-        }       
- }   
+       }       
+ } 

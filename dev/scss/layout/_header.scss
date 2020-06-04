@@ -11,17 +11,18 @@ header {
 
     >div {
         display: grid;
-        grid-template-areas: "logo burger"
-                            "nav nav";
+        grid-template-areas:
+        "logo burger"
+        "nav nav";
         grid-template-columns: 90% auto;
  
-        section,
-        nav {
-            padding: 10px;
+        #logo-container{
+            grid-area: logo;
         }
 
         #logo-container {
             grid-area: logo;
+
             h1{
                 text-align: center;
                 padding-left: 8%;
@@ -35,6 +36,7 @@ header {
             display: flex;
             grid-area: burger;
             justify-content: flex-end;
+            padding-right: 30px;
 
             @include lg {
                 display: none !important;
